@@ -2,7 +2,7 @@ var timeLeft = 0;
 var countdown;
 var score = 0;
 var masterTime = 0;
-var audio = new Audio("C:/Users/DrunkenLyricist/Desktop/07_radiate.mp3");
+var audio = new Audio("./07_radiate.mp3");
 var isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
 var timerInput = prompt("For one question?");
